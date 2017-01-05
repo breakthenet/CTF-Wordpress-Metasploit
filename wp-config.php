@@ -17,12 +17,9 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-define('WP_ALLOW_REPAIR', true);
-
 $mysql_string = getenv('CLEARDB_DATABASE_URL');
 $mysql_url = parse_url($mysql_string);
 
-$c = mysql_connect($mysql_url['host'], $mysql_url['user'], $mysql_url['pass']) or die(mysql_error());
 $db_name = str_replace("/", "", $mysql_url['path']);
 
 define('DB_NAME', $db_name);
