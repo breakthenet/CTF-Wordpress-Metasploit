@@ -1,0 +1,97 @@
+#sample-minimal-1
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 11px;
+	background: #fff;
+	border-collapse: collapse;
+	text-align: left;
+	border: 1px solid #000000;
+	width:100%;
+}
+
+#sample-minimal-1-title
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 11px;
+	border-collapse: collapse;
+	text-align:center;
+	text-align: center;
+	width:100%;
+	border: 1px solid #000000;
+	background-color:#CCCCCC;
+	color: #000000;
+}
+
+#sample-minimal-1-pagination
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 11px;
+	background: #fff;
+	border-collapse: collapse;
+	text-align: left;
+	border: 1px solid #000000;
+	width:100%;
+}
+
+#sample-minimal-1-pagination tbody td
+{
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+}
+
+#sample-minimal-1-pagination tbody th
+{
+	text-align:right;
+	padding: 0px 4px 0px 4px;
+}
+
+#sample-minimal-1-pagination tbody th A:link {text-decoration: none; color:#000000}
+#sample-minimal-1-pagination tbody th A:visited {text-decoration: none; color:#000000}
+#sample-minimal-1-pagination tbody th A:active {text-decoration: none; color:#000000}
+#sample-minimal-1-pagination tbody th A:hover {text-decoration: none; color:#FF0000}
+
+
+#sample-minimal-1 thead
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	padding: 0px 4px 0px 4px;
+	border-bottom: 1px solid #000000;
+	background-color:#CCCCCC;
+}
+
+#sample-minimal-1 thead th
+{
+	padding: 0px 4px 0px 4px;
+}
+
+#sample-minimal-1 tfoot
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	padding: 0px 4px 0px 4px;
+	border-top: 1px solid #000000;
+	background-color:#CCCCCC
+}
+
+#sample-minimal-1 tfoot th
+{
+	padding: 0px 4px 0px 4px;
+}
+
+#sample-minimal-1 td
+{
+	color: #000000;
+	padding: 0px 4px 0px 4px;
+}
+#sample-minimal-1 tbody tr:hover td
+{
+	color: #000000;
+}
+
+#sample-minimal-1 A:link {text-decoration: none}
+#sample-minimal-1 A:visited {text-decoration: none}
+#sample-minimal-1 A:active {text-decoration: none}
+#sample-minimal-1 A:hover {text-decoration: none;}

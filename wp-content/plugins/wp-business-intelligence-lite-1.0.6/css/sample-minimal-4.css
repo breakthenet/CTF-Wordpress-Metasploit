@@ -1,0 +1,132 @@
+#sample-minimal-4 {
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:11px;
+	font-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-color:#000000;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#FFFFFF;
+	width:100%;
+}
+
+#sample-minimal-4-title {
+	font-size: 11px;
+	font-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#b9c9fe;
+	width:100%;
+	text-align:center;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+#sample-minimal-4-pagination
+{
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#FFFFFF;
+	font-size: 11px;
+	width:100%;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-color: #000000;
+}
+
+#sample-minimal-4-pagination tbody td
+{
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+	font-size: 11px;
+}
+
+#sample-minimal-4-pagination tbody th
+{
+	text-align:right;
+	padding: 0px 4px 0px 4px;
+	font-size: 11px;
+}
+
+#sample-minimal-4-pagination tbody th A:link {text-decoration: none; color:#000000}
+#sample-minimal-4-pagination tbody th A:visited {text-decoration: none; color:#000000}
+#sample-minimal-4-pagination tbody th A:active {text-decoration: none; color:#000000}
+#sample-minimal-4-pagination tbody th A:hover {text-decoration: none; color:#FF0000}
+
+.emphasis
+{
+
+}
+
+#sample-minimal-4 * {
+	word-wrap: break-word;
+}
+
+#sample-minimal-4 a {
+	text-decoration: none;
+}
+
+
+#sample-minimal-4 thead {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	font-size: 11px;
+	background: #b9c9fe;
+}
+
+#sample-minimal-4 tfoot {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	font-size: 11px;
+	padding: 0px 4px 0px 4px;
+	text-align: left;
+	line-height: 1.3em;
+	background: #b9c9fe;
+}
+
+
+
+#sample-minimal-4 td {
+	padding: 0px 4px 0px 4px;
+	vertical-align: top;
+}
+
+
+
+#sample-minimal-4 th {
+	padding: 0px 4px 0px 4px;
+	text-align: left;
+	line-height: 1.3em;
+	background: #b9c9fe;
+}
+
+
+#sample-minimal-4 A:link {text-decoration: none}
+#sample-minimal-4 A:visited {text-decoration: none}
+#sample-minimal-4 A:active {text-decoration: none}
+#sample-minimal-4 A:hover {text-decoration: none;}
+
+
+

@@ -1,0 +1,1 @@
+<script  type="text/javascript" src="{TPL_SCRIPT}"></script>

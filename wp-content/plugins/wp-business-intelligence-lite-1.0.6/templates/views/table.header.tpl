@@ -1,0 +1,1 @@
+<th>{TABLE_HEADER_COLUMN_NAME}</th>

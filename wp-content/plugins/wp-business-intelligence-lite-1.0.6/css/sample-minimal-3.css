@@ -1,0 +1,127 @@
+#sample-minimal-3 {
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#FFFFFF;
+	width:100%;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:11px;
+}
+
+#sample-minimal-3-title {
+	font-size: 11px;
+	border-width: 1px;
+	text-align:center;
+	border-style: solid;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#cccccc;
+	width:100%;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	
+}
+
+#sample-minimal-3-pagination
+{
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#FFFFFF;
+	font-size: 11px;
+	width:100%;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+#sample-minimal-3-pagination tbody td
+{
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+	font-size: 11px;
+}
+
+#sample-minimal-3-pagination tbody th
+{
+	text-align:right;
+	padding: 0px 4px 0px 4px;
+	font-size: 11px;
+}
+
+#sample-minimal-3-pagination tbody th A:link {text-decoration: none; color:#000000}
+#sample-minimal-3-pagination tbody th A:visited {text-decoration: none; color:#000000}
+#sample-minimal-3-pagination tbody th A:active {text-decoration: none; color:#000000}
+#sample-minimal-3-pagination tbody th A:hover {text-decoration: none; color:#FF0000}
+
+.emphasis
+{
+
+}
+
+#sample-minimal-3 * {
+	word-wrap: break-word;
+}
+
+#sample-minimal-3 a {
+	text-decoration: none;
+}
+
+#sample-minimal-3 thead {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	font-size: 11px;
+	background: #cccccc;
+}
+
+#sample-minimal-3 tfoot {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	font-size: 11px;
+	padding: 0px 4px 0px 4px;
+	text-align: left;
+	line-height: 1.3em;
+	background: #cccccc;
+}
+
+
+
+#sample-minimal-3 td {
+	padding: 0px 4px 0px 4px;
+	vertical-align: top;
+}
+
+
+
+#sample-minimal-3 th {
+	padding: 0px 4px 0px 4px;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+
+#sample-minimal-3 A:link {text-decoration: none}
+#sample-minimal-3 A:visited {text-decoration: none}
+#sample-minimal-3 A:active {text-decoration: none}
+#sample-minimal-3 A:hover {text-decoration: none;}
+
+
+

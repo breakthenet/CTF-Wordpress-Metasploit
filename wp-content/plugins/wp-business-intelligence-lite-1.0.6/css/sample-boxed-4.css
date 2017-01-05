@@ -1,0 +1,125 @@
+#sample-boxed-4 {
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#FFFFFF;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:12px;
+}
+
+#sample-boxed-4-title {
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	text-align:center;
+	border-radius: 4px;
+	background-color:#FFFFFF;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size:12px;
+}
+
+#sample-boxed-4-pagination
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	background-color:#FFFFFF;
+}
+
+#sample-boxed-4-pagination tbody td
+{
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+}
+
+#sample-boxed-4-pagination tbody th
+{
+	text-align:right;
+	padding: 0px 4px 0px 4px;
+}
+
+#sample-boxed-4-pagination tbody th A:link {text-decoration: none; color:#000000}
+#sample-boxed-4-pagination tbody th A:visited {text-decoration: none; color:#000000}
+#sample-boxed-4-pagination tbody th A:active {text-decoration: none; color:#000000}
+#sample-boxed-4-pagination tbody th A:hover {text-decoration: none; color:#FF0000}
+
+.emphasis
+{
+
+}
+
+#sample-boxed-4 * {
+	word-wrap: break-word;
+}
+
+#sample-boxed-4 a {
+	text-decoration: none;
+}
+
+#sample-boxed-4 thead {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	font-size: 11px;
+	background: #b9c9fe;
+}
+
+#sample-boxed-4 tfoot {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-top-style: solid;
+	font-size: 11px;
+	padding: 7px 7px 8px;
+	text-align: left;
+	line-height: 1.3em;
+	background: #b9c9fe;
+}
+
+
+
+#sample-boxed-4 td {
+	padding: 3px 7px;
+	vertical-align: top;
+}
+
+
+
+#sample-boxed-4 th {
+	padding: 7px 7px 8px;
+	text-align: left;
+	line-height: 1.3em;
+	background: #b9c9fe;
+}
+
+
+#sample-boxed-4 A:link {text-decoration: none}
+#sample-boxed-4 A:visited {text-decoration: none}
+#sample-boxed-4 A:active {text-decoration: none}
+#sample-boxed-4 A:hover {text-decoration: none;}
+
+
+

@@ -1,0 +1,77 @@
+#wordpress-default{
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 13px;
+	border:#dfdfdf solid 1px;
+	background-color:#fff;
+	width: 100%;
+	border-collapse:collapse;
+}
+
+#wordpress-default-title
+{
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 13px;
+}
+
+#wordpress-default-pagination
+{
+	border:#dfdfdf solid 1px;
+	background-color:#fff;
+	width: 100%;
+	border-collapse:collapse;
+	font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 13px;
+}
+
+#wordpress-default-pagination tbody td
+{
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+}
+
+#wordpress-default-pagination tbody th
+{
+	text-align:right;
+	padding: 0px 4px 0px 4px;
+}
+
+#wordpress-default-pagination tbody th A:link {text-decoration: none; }
+#wordpress-default-pagination tbody th A:visited {text-decoration: none; }
+#wordpress-default-pagination tbody th A:active {text-decoration: none; }
+#wordpress-default-pagination tbody th A:hover {text-decoration: none; }
+
+
+#wordpress-default thead tr {
+	text-shadow:rgba(255,255,255,0.8) 0 1px 0;
+	background: #d5e6f2 url(blue-grad.png) repeat-x ;
+	background-color: #d5e6f2;
+	height:31px;
+}
+
+#wordpress-default thead tr th {
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+}
+
+
+#wordpress-default tfoot tr{
+	text-shadow:rgba(255,255,255,0.8) 0 1px 0;
+	background: #d5e6f2 url(blue-grad.png) repeat-x ;
+	background-color: #d5e6f2;
+	height:31px;
+}
+
+#wordpress-default tfoot tr th {
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+}
+
+#wordpress-default tbody tr td {
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+}
+
+#wordpress-default A:link {text-decoration: none}
+#wordpress-default A:visited {text-decoration: none}
+#wordpress-default A:active {text-decoration: none}
+#wordpress-default A:hover {text-decoration: none;}

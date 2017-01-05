@@ -1,0 +1,96 @@
+
+#sample-boxed-1
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 100%;
+	text-align: left;
+	border:#000099 solid 1px;
+	border-collapse:collapse;
+}
+
+#sample-boxed-1-title
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 100%;
+	text-align:center;
+	border-top:#000099 solid 1px;
+	border-left:#000099 solid 1px;
+	border-right:#000099 solid 1px;
+	border-collapse:collapse;
+	background:#e8edff;
+	color: #039;
+}
+
+#sample-boxed-1-pagination
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 100%;
+	border:#000099 solid 1px;
+	border-collapse:collapse;
+	background:#e8edff;
+	color: #039;
+}
+
+#sample-boxed-1-pagination tbody td
+{
+	text-align:left;
+	padding: 0px 4px 0px 4px;
+}
+
+#sample-boxed-1-pagination tbody th
+{
+	text-align:right;
+	padding: 0px 4px 0px 4px;
+}
+
+#sample-boxed-1-pagination tbody th A:link {text-decoration: none}
+#sample-boxed-1-pagination tbody th A:visited {text-decoration: none}
+#sample-boxed-1-pagination tbody th A:active {text-decoration: none}
+#sample-boxed-1-pagination tbody th A:hover {text-decoration: none; color:#FF0000}
+
+#sample-boxed-1 thead th
+{
+	font-size: 13px;
+	font-weight: bold;
+	padding: 8px;
+	background: #b9c9fe;
+	color: #039;
+	border-bottom:#000099 solid 1px;
+}
+
+#sample-boxed-1 tfoot th
+{
+	font-size: 13px;
+	font-weight: bold;
+	padding: 8px;
+	background: #b9c9fe;
+	color: #039;
+	border-top:#000099 solid 1px;
+}
+
+#sample-boxed-2 tbody 
+{
+	border-top:#000099 solid 1px;
+	border-bottom:#000099 solid 1px;
+}
+
+#sample-boxed-1 td
+{
+	padding: 8px;
+	background: #e8edff; 
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#sample-boxed-1 tr:hover td
+{
+	background: #d0dafd;
+	color: #339;
+}
+
+#sample-boxed-1 A:link {text-decoration: none}
+#sample-boxed-1 A:visited {text-decoration: none}
+#sample-boxed-1 A:active {text-decoration: none}
+#sample-boxed-1 A:hover {text-decoration: none;}
