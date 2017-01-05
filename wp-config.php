@@ -16,22 +16,20 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+// ** MySQL settings - You can get this info from your web host ** //
+$url = parse_url(getenv('DATABASE_URL') ? getenv('DATABASE_URL') : getenv('CLEARDB_DATABASE_URL'));
 
-$mysql_string = getenv('CLEARDB_DATABASE_URL');
-$mysql_url = parse_url($mysql_string);
-
-$db_name = str_replace("/", "", $mysql_url['path']);
-
-define('DB_NAME', $db_name);
+/** The name of the database for WordPress */
+define('DB_NAME', trim($url['path'], '/'));
 
 /** MySQL database username */
-define('DB_USER', $mysql_url['user']);
+define('DB_USER', $url['user']);
 
 /** MySQL database password */
-define('DB_PASSWORD', $mysql_url['pass']);
+define('DB_PASSWORD', $url['pass']);
 
 /** MySQL hostname */
-define('DB_HOST', $mysql_url['host']);
+define('DB_HOST', $url['host']);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -48,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'w*]aA8B0A-,2eOR);( >lS+C*Dnr(!-z&k40b2r5*Z-OR?(;u?r:,#p{k|Ty(d*.');
-define('SECURE_AUTH_KEY',  '?inr-CbM$va3dLhU6`%O<!RK;VH4D}gJa_}CYqf?/2tDAi8[L+t8nM8(Dma0BiX!');
-define('LOGGED_IN_KEY',    'XOgyj,gji8G-,R=xWlGd5>cJ7%w&d!Jbc_Cbg5eK.WF3+j-O?$%+%,YYbo[]QT+a');
-define('NONCE_KEY',        '5-*z..9J5@O7FhgeTcF=Bvt(m#i:.:r1pv.K)|uRreo{g,q*W?c5Mn&g<;qMPDET');
-define('AUTH_SALT',        '4<_p@F&$8n43|x!!z-J 8:h=9I?B^Xhwe:<Z`<a}+=f6JG{th>;XHt!/$u;2;Ytd');
-define('SECURE_AUTH_SALT', 'TR amYxW!/gC}.}uf/LZ1(v45}4n-c>Njo.~VbD 5oi:RC>c~A|Zm]Hc]EtGgP/A');
-define('LOGGED_IN_SALT',   '>8<qHMd[L<<Qk<q{X<y4H7Yz_P|xf~zeIC!W*NZXjvLAKy|)5O1$m_l9cM+}6N*+');
-define('NONCE_SALT',       '=-;wSDV/3we<:r?GuP>So9Dcws~]*!2DS  p:u?Z?J9/K=TSUuvM{I0kmSk#8-w1');
+define('AUTH_KEY',         getenv('AUTH_KEY'));
+define('SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY'));
+define('LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY'));
+define('NONCE_KEY',        getenv('NONCE_KEY'));
+define('AUTH_SALT',        getenv('AUTH_SALT'));
+define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
+define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
+define('NONCE_SALT',       getenv('NONCE_SALT'));
 
 /**#@-*/
 
