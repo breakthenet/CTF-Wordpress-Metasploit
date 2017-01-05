@@ -134,7 +134,7 @@ CREATE TABLE `wp_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=1392 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1412 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -162,7 +162,7 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -171,7 +171,7 @@ CREATE TABLE `wp_postmeta` (
 
 LOCK TABLES `wp_postmeta` WRITE;
 /*!40000 ALTER TABLE `wp_postmeta` DISABLE KEYS */;
-INSERT INTO `wp_postmeta` VALUES (2,2,'_wp_page_template','default');
+INSERT INTO `wp_postmeta` VALUES (2,2,'_wp_page_template','default'),(12,2,'_edit_lock','1483620224:2'),(22,2,'_edit_last','2');
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -211,7 +211,7 @@ CREATE TABLE `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=52 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -220,7 +220,7 @@ CREATE TABLE `wp_posts` (
 
 LOCK TABLES `wp_posts` WRITE;
 /*!40000 ALTER TABLE `wp_posts` DISABLE KEYS */;
-INSERT INTO `wp_posts` VALUES (2,2,'2017-01-05 12:33:59','2017-01-05 12:33:59','Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!','Hello world!','','publish','open','open','','hello-world','','','2017-01-05 12:33:59','2017-01-05 12:33:59','',0,'http://ctf-wordpress-msf.herokuapp.com/?p=1',0,'post','',1),(12,2,'2017-01-05 12:33:59','2017-01-05 12:33:59','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://ctf-wordpress-msf.herokuapp.com/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','open','open','','sample-page','','','2017-01-05 12:33:59','2017-01-05 12:33:59','',0,'http://ctf-wordpress-msf.herokuapp.com/?page_id=2',0,'page','',0),(22,2,'2017-01-05 12:34:21','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2017-01-05 12:34:21','0000-00-00 00:00:00','',0,'http://ctf-wordpress-msf.herokuapp.com/?p=22',0,'post','',0);
+INSERT INTO `wp_posts` VALUES (2,2,'2017-01-05 12:33:59','2017-01-05 12:33:59','Test post attempting to get \"WP Business Intelligence Lite\" plugin up and running and embedding graphs in these posts...','F!RST P0ST!','','publish','open','open','','hello-world','','','2017-01-05 12:43:44','2017-01-05 12:43:44','',0,'http://ctf-wordpress-msf.herokuapp.com/?p=1',0,'post','',1),(12,2,'2017-01-05 12:33:59','2017-01-05 12:33:59','This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href=\"http://ctf-wordpress-msf.herokuapp.com/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!','Sample Page','','publish','open','open','','sample-page','','','2017-01-05 12:33:59','2017-01-05 12:33:59','',0,'http://ctf-wordpress-msf.herokuapp.com/?page_id=2',0,'page','',0),(22,2,'2017-01-05 12:34:21','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2017-01-05 12:34:21','0000-00-00 00:00:00','',0,'http://ctf-wordpress-msf.herokuapp.com/?p=22',0,'post','',0),(32,2,'2017-01-05 12:43:39','2017-01-05 12:43:39','Test post attempting to get \"WP Business Intelligence Lite\" up and running and embedding graphs in these posts... this','F!RST P0ST!','','inherit','open','open','','2-autosave-v1','','','2017-01-05 12:43:39','2017-01-05 12:43:39','',2,'http://ctf-wordpress-msf.herokuapp.com/?p=32',0,'revision','',0),(42,2,'2017-01-05 12:43:44','2017-01-05 12:43:44','Test post attempting to get \"WP Business Intelligence Lite\" plugin up and running and embedding graphs in these posts...','F!RST P0ST!','','inherit','open','open','','2-revision-v1','','','2017-01-05 12:43:44','2017-01-05 12:43:44','',2,'http://ctf-wordpress-msf.herokuapp.com/?p=42',0,'revision','',0);
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -246,7 +246,7 @@ CREATE TABLE `wp_term_relationships` (
 
 LOCK TABLES `wp_term_relationships` WRITE;
 /*!40000 ALTER TABLE `wp_term_relationships` DISABLE KEYS */;
-INSERT INTO `wp_term_relationships` VALUES (1,2,0);
+INSERT INTO `wp_term_relationships` VALUES (1,2,0),(2,2,0);
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -599,4 +599,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-01-05  6:37:53
+-- Dump completed on 2017-01-05  6:44:09
